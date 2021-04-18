@@ -17,6 +17,7 @@ class card : AppCompatActivity() {
         btncard.setOnClickListener { replaceFragment(cards_show()) }
         btnroom.setOnClickListener { replaceFragment(rooms()) }
         btndeck.setOnClickListener { replaceFragment(deck_type()) }
+
     }
     private fun loadFragment(fragment: Fragment) {
         val fragmentTransaction = supportFragmentManager.beginTransaction()
